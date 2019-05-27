@@ -15,11 +15,11 @@ Fingerprints are patterns formed on fingers of human, monkey, or ape appendages.
 **Alternate Hypothesis:** There is a significant difference in the number of fingerprint pattern matches between siblings and strangers. 
 ## Classification
 { </br>
-&nbsp; "pattern" : ("loop", "tight whorl", "loose whorl", "whorl", "arch), </br
-&nbsp; "x alignment" : ("left", "center", "right"), </br>
-&nbsp; "y alignment" : ("low", "center", "up"), </br> 
-&nbsp; (specifically for loop) "direction" : ("pointing right", "pointing left"), </br>
-&nbsp; (specifically for whorl) "top loop direction" : ("right", "left"), </br>
-&nbsp; (specifically for whorl) "bottom loop direction" : ("right", "left"), </br>
-&nbsp; (specifically for arch) "concavity" : ("up", "down") </br>
+> "pattern" : ("loop", "tight whorl", "loose whorl", "whorl", "arch), </br>
+> "x alignment" : ("left", "center", "right"), </br>
+> "y alignment" : ("low", "center", "up"), </br> 
+> (specifically for loop) "direction" : ("pointing right", "pointing left"), </br>
+> (specifically for whorl) "top loop direction" : ("right", "left"), </br>
+> (specifically for whorl) "bottom loop direction" : ("right", "left"), </br>
+> (specifically for arch) "concavity" : ("up", "down") </br>
 }
