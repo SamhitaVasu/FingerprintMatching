@@ -1,6 +1,6 @@
-# FingerprintMatching
+# Fingerprint Genetics
 ## Background Information:
-Fingerprints are patterns formed on fingers of human, monkey, or ape appendages. Every human being on this planet has a distinct and unique fingerprint. This means that not one person has the same fingerprint as another, including identical twins. In fact, unknown suspects can be identified by the fingerprints they leave behind on a crime scene. There are three main pattern types of fingerprints: arch, whorl, and loop. Even though fingerprints are specific to an individual, scientific research shows that there is some genetic relatedness between these fingerprint patterns of parents and their children. Our own research is to explore to what extent genetic relatedness can be determined by fingerprint similarities.
+Fingerprints are patterns formed on human, monkey, and ape appendages. Every human has a unique fingerprint, including identical twins. In fact, unknown suspects can be identified by the fingerprints they leave behind on a crime scene. There are three main pattern types of fingerprints: arch, whorl, and loop. Even though fingerprints are unique to an individual, scientific research shows that there is some genetic relatedness between the fingerprint patterns of parents and their children. Our own research is to explore to what extent genetic relatedness can be determined by fingerprint similarities.
 ## Factors: 
 * Loop vs Whorl vs Arch
   * Subtype: Loose vs. Tight vs. Just Whorl; Concavity of Arch
@@ -13,6 +13,8 @@ Fingerprints are patterns formed on fingers of human, monkey, or ape appendages.
 ### Goal 1
 **Null Hypothesis:** Siblings and strangers have no significant difference between number of fingerprint pattern matches. </br>
 **Alternate Hypothesis:** There is a significant difference in the number of fingerprint pattern matches between siblings and strangers. 
+### Goal 2
+**Hypothesis:** The pattern of inheritance of fingerprint types is random.
 ## Classification
 { </br>
     "pattern" : ("loop", "tight whorl", "loose whorl", "whorl", "arch), </br>
