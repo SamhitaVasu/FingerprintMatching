@@ -22,4 +22,4 @@ Fingerprints are patterns formed on fingers of human, monkey, or ape appendages.
 > (specifically for whorl) "top loop direction" : ("right", "left"), </br>
 > (specifically for whorl) "bottom loop direction" : ("right", "left"), </br>
 > (specifically for arch) "concavity" : ("up", "down") </br>
-}
+< }
