@@ -34,6 +34,8 @@ We put together 11 Fingerprinting kits, each containing:
 * 1 Stamp pad
 * 1 Fingerprint template paper
 * 1 set of instructions </br>
+</br>
+
 We used the Fingerprint Match program (FingerprintMatcher.ipynb) for achieving Goal #1 of the project.
 ## Procedure
 #### *... for goal #1*
