@@ -10,8 +10,8 @@ Fingerprints are patterns formed on human, monkey, and ape appendages. Every hum
 * Centeredness of main pattern
 * Opencv analysis to determine percent similarity between two fingerprints
 ## We have two goals 
-#1. Determine whether genetic relatedness can be established from fingerprint similarity using OpenCV. </br>
-#2. Determine a pattern of inheritance for fingerprint patterns on the right thumb.
+1. Determine whether genetic relatedness can be established from fingerprint similarity using OpenCV.
+2. Determine a pattern of inheritance for fingerprint patterns on the right thumb.
 ### Goal 1
 **Null Hypothesis:** Siblings and strangers have no significant difference between number of fingerprint pattern matches. </br>
 **Alternate Hypothesis:** There is a significant difference in the number of fingerprint pattern matches between siblings and strangers. 
@@ -34,4 +34,18 @@ We put together 11 Fingerprinting kits, each containing:
 * 1 Stamp pad
 * 1 Fingerprint template paper
 * 1 set of instructions
-We used the Fingerprint Match program (FingerprintMatcher.ipynb) for achieving Goal #1 of the project.
+</br> We used the Fingerprint Match program (FingerprintMatcher.ipynb) for achieving Goal #1 of the project.
+## Procedure
+#### *... for goal #1*
+1. Distribute fingerprinting kit to sample families.
+2. Scan and upload images of individual fingerprints.
+3. Evaluate number of matches and percent match between both siblings and strangers using OpenCV.
+ * Control: Compare fingerprint to itself to ensure the program runs as intended.
+ * Trial 1: Siblings
+ * Trial 2: Compare strangers with the same pattern
+ * Trial 3: Compare strangers with different patterns
+4. Determine if there is a statistically significant difference between the number of matches in trial 1 compared to trials 2 and 3. 
+#### *... for goal #2*
+1. Distribute fingerprinting kit to sample families.
+2. Scan and upload images of individual fingerprints.
+3. Evaluate families’ fingerprints to determine phylogenetic inheritance patterns.
