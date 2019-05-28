@@ -33,8 +33,8 @@ We put together 11 Fingerprinting kits, each containing:
 * 1 Pen	
 * 1 Stamp pad
 * 1 Fingerprint template paper
-* 1 set of instructions
-</br> We used the Fingerprint Match program (FingerprintMatcher.ipynb) for achieving Goal #1 of the project.
+* 1 set of instructions </br>
+We used the Fingerprint Match program (FingerprintMatcher.ipynb) for achieving Goal #1 of the project.
 ## Procedure
 #### *... for goal #1*
 1. Distribute fingerprinting kit to sample families.
@@ -49,3 +49,7 @@ We put together 11 Fingerprinting kits, each containing:
 1. Distribute fingerprinting kit to sample families.
 2. Scan and upload images of individual fingerprints.
 3. Evaluate families’ fingerprints to determine phylogenetic inheritance patterns.
+## Conclusion
+**Goal 1 Conclusion:** Through our Chi-square calculation, we found that p = 0.0001015531577, which is less than our alpha value of 0.05. So, we can reject the null hypothesis that there is no significant difference between the matches of the fingerprints of siblings and strangers. There is statistically significant evidence that our OpenCV program can distinguish siblings from strangers based on fingerprint similarity. Therefore, we can conclude that it is possible to determine genetic relatedness from fingerprint similarity.
+</br>
+**Goal 2 Conclusion:** From the fingerprint patterns within a family, we observed that many of the offsprings’ fingerprints showed similar patterns as their parents. When one parent has a whorl and the other has a loop, and both kids have whorls, we deduce that loops are recessive to whorls. Continually, if one parent has an arch and the other has a loop, and the children have a whorl and a loop, the arch allele must be recessive to the loop allele, while being dominant to the whorl allele. We found these patterns to be consistent with all the family data we received. However, our pattern seems convoluted (thus unlikely) because the “loop allele” seems to be dominant to the “arch allele,” seems dominant to the “whorl allele,” but the “whorl allele” seems to be dominant to the “loop allele.” In other words, there does not seem to be a simple inheritance pattern. Rather, it seems more likely that fingerprint pattern inheritance is polygenic. Nevertheless, our data supports the conclusion that fingerprint inheritance is not random, but that genetics has some role in fingerprint pattern.
